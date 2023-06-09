@@ -1,0 +1,10 @@
+- name: conditions dempo
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: print hello universe
+    ansible.builtin.debugh:
+       msg: hellunviverse print
+  - name: print hello work\ls
+    ansible.builtin.debug:
+     masg: hello worls 
