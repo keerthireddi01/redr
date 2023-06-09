@@ -5,6 +5,6 @@
   - name: print hello universe
     ansible.builtin.debug:
        msg: hellunviverse print
-  - name: print hello work\ls
+  - name: print hello work
     ansible.builtin.debug:
-     masg: hello worls 
+      msg: hello worls 
