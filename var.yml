@@ -13,7 +13,7 @@
   hosts: localhost
   connection: local
   tasks:
-    -name: shell command
+    - name: shell command
      ansible.builtin.shell: uptime
      register: output
 
